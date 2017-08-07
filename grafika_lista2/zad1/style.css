@@ -1,0 +1,13 @@
+#canvas {
+	float: left;
+	margin-right: 8px;
+}
+body {
+	background-color: #555;
+}
+.btn {
+	background-color: #444;
+	color: #4FE42A;
+	padding: 5px;
+	margin: 5px;
+}

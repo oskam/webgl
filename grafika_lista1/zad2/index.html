@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+	<title>KRZYWA HILBERTA</title>
+	<script src="script.js"></script>
+	<link rel="stylesheet" href="style.css"></link>
+</head>
+
+<body>
+	<h2>Krzywa Hilberta</h2>
+	<canvas id="canvas" width="800" height="800"></canvas>
+
+	<div id="console">
+		<p>Podaj stopień iteracji:</p>
+		<textarea id="value1" rows="1" cols="10"></textarea><br/>
+		<p>Podaj długość krawędzi:</p>
+		<textarea id="value2" rows="1" cols="10"></textarea><br/><br/>
+		<button id="run">RYSUJ</button>
+	</div>
+
+	<script>
+		window.onload = function(){MYAPP.init();};
+	</script>
+</body>
+</html>
